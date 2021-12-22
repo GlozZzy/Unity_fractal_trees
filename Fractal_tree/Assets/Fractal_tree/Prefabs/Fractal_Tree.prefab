@@ -137,7 +137,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5359805287538985109}
   - component: {fileID: 5359805287538985115}
-  - component: {fileID: 5359805287538985113}
   m_Layer: 0
   m_Name: Fractal
   m_TagString: Untagged
@@ -173,19 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   recurse: 13
+  angle: 36.3
+  heigh: 0.75
   greenRange: 1
   greenMaterial: {fileID: 2100000, guid: 558095b531f2bcd47ae7392fe1adeb97, type: 2}
---- !u!114 &5359805287538985113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5359805287538985112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37e475794b7e7ea4f8bb6f102f2f8fc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angle: 37.6
-  heigh: 0.75
