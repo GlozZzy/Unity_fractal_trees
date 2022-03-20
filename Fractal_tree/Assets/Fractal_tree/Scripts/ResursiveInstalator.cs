@@ -33,7 +33,7 @@ public class ResursiveInstalator : MonoBehaviour
                 copy.transform.SetParent(transform.parent);
                 copy.transform.position += copy.transform.parent.transform.position + copy.transform.up * copy.transform.localScale.y;
 
-                copy.transform.rotation *= Quaternion.Euler(Random.Range(15, angle) * ((i * 2) - 1), 90, 0);
+                copy.transform.rotation *= Quaternion.Euler(Random.Range(15, angle) * ((i * 2) - 1), Random.Range(70, 110), 0);
                 //copy.transform.rotation *= Quaternion.Euler(30 * ((i * 2) - 1), 0, 0);
                 copy.transform.localScale *= Random.Range(heigh - 0.15f, heigh + 0.15f);
             }
